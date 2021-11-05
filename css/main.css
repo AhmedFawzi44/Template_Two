@@ -1005,9 +1005,12 @@ flex-wrap: wrap;
     left: 15px;
 }
 .contact-us .content form .message[type="text"]{
-    padding: 120px;
-    position: relative;
+    padding: 0 0 150px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
     width: 100%;
+    height: 200px;
 }
 .contact-us .content form .message[type="text"]::placeholder{
     position: absolute;
